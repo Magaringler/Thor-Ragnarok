@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #b51408;
+}
+
+main{
+	width: 940px;
+	height: 740px;
+	background-color: #000;
+	margin: auto;
+}
+
+header{
+	width: 940px;
+	height: 70px;
+	background-color: #0c4510;
+}
+
+article{
+	width: 940px;
+	height: 640px;
+	background-image: url(../img/sinopsis.jpg);
+}
+
+footer{
+	width: 940px;
+	height: 40px;
+	background-color: #0c4510;
+	vertical-align: auto;
+}
+
+.logothor{
+	padding-left: 32px;
+}
+
+.menu{
+	float: right;
+}
+	a{
+		text-decoration: none;
+		color: inherit;
+		font-size: 14px;
+		text-align: right;
+	}
+
+	li{
+		display:inline-block;
+		width:80px;
+		padding:6px 15px;
+		background-color:#000;
+		border:2px solid #fcef09;
+		text-align:center;
+		color:#fcef09;
+		float: right;
+		margin-right: 25px;
+		margin-top: 18px;
+	}
+
+	li:hover{
+		background-color:#fcef09;
+		color:#000;
+		border:2px solid #fcef09;
+	}
+
+.logo{
+	padding-left: 32px;
+}
+
+.nombre{
+	float: right;
+	margin-right: 32px;
+	margin-top: 8px;
+}
+	h2{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 15px;
+			color: #fcef09
+		}
+
+#texto{
+	height: 640px;
+	width: 430px;
+	background-color: black;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+}
+
+p{
+	color: #fcef09;
+	font-size: 18px;
+}
+
+.titulo{
+			padding-top: 15px;
+		}
+
+		h1{
+		    font-family: 'Days One', sans-serif;
+	        font-size: 40px;
+	        color: #fcef09
+		  }
+
+
+
+
+
+/* Small (mobiles, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+ body{ background-color: #b51408;} 
+	 main{
+		width: 576px;
+		height: 1040px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 576px;
+		height: 140px;
+		background-color: #0c4510;
+	}
+
+	article{
+		width: 576px;
+		height: 860px;
+		background-image: url("../img/fondo7.jpg");
+	}
+
+	footer{
+	width: 576px;
+	height: 40px;
+	background-color: #0c4510;
+	vertical-align: auto;
+	}
+
+	.logothor{
+		margin-left: 177px;
+	}
+
+	.menu{
+		margin-right: auto;
+		margin-left: auto;
+	}
+		a{
+			text-decoration: none;
+			color: inherit;
+			font-size: 18px;
+			text-align: right;
+		}
+
+		li{
+			display:inline-block;
+			width:130px;
+			padding:6px 12px;
+			background-color:#000;
+			border:2px solid #fcef09;
+			text-align:center;
+			color:#fcef09;
+			margin-top: 10px;
+			margin-right: 26px;
+		}
+
+		li:hover{
+			background-color:#fcef09;
+			color:#000;
+			border:2px solid #fcef09;
+		}
+
+	.logo{
+	padding-left: 20px;
+	}
+
+	.nombre{
+		float: right;
+		margin-right: 20px;
+		margin-top: 11px;
+	}
+	h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 12px;
+		color: #fcef09
+	}
+
+	#texto{
+		height: 560px;
+		width: 480px;
+		padding-right: 15px;
+		padding-left: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: none;
+		margin-top: 290px;
+	}
+
+	p{
+		color: #fcef09;
+		font-size: 18px;
+	}
+
+	.titulo{
+		padding-left: 150px;
+		}
+		h1{
+			font-family: 'Days One', sans-serif;
+			font-size: 28px;
+			color: #fcef09
+		}
+}
+
+
+
+
+/*Medium  (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px){ 
+ body{ background-color: #b51408;}
+ 	main{
+		width: 768px;
+		height: 850px;
+		background-color: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 768px;
+		height: 70px;
+		background-color: #0c4510;
+	}
+
+	article{
+		width: 768px;
+		height: 750px;
+		background-image: url(../img/sinopsismedium.jpg);
+	}
+
+	footer{
+		width: 768px;
+		height: 40px;
+		background-color: #0c4510;
+		bottom: auto;
+	}
+
+	.logothor{
+	padding-left: 32px;
+	}
+
+	.menu{
+		float: right;
+	}
+		a{
+			text-decoration: none;
+			color: inherit;
+			font-size: 16px;
+			text-align: right;
+		}
+
+		li{
+			display:inline-block;
+			width:100px;
+			padding:6px 15px;
+			background-color:#000;
+			border:2px solid #fcef09;
+			text-align:center;
+			color:#fcef09;
+			float: right;
+			margin-right: 25px;
+			margin-top: 18px;
+		}
+
+		li:hover{
+			background-color:#fcef09;
+			color:#000;
+			border:2px solid #fcef09;
+		}
+
+	.logo{
+		padding-left: 28px;
+	}
+
+	.nombre{
+		float: right;
+		margin-right: 28px;
+		 margin-top: 11px;
+	}
+		h2{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 12px;
+				color: #fcef09
+			}
+
+	#texto{
+		height: 750px;
+		width: 348px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+	}
+
+	p{
+		color: #fcef09;
+		font-size: 18px;
+	}
+
+	.titulo{
+		padding-top: 20px;
+	}
+
+	h1{
+	    font-family: 'Days One', sans-serif;
+        font-size: 30px;
+        color: #fcef09
+	  }
+}
+
+
+
+
+
+/*Large  (escritorio, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px){ 
+ body{ background-color: #b51408;}
+ 	main{
+		width: 992px;
+		height: 740px;
+		background-color: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 992px;
+		height: 70px;
+		background-color: #0c4510;
+	}
+
+	article{
+		width: 992px;
+		height: 640px;
+		background-image: url(../img/sinopsislarge.jpg);
+	}
+
+	footer{
+		width: 992px;
+		height: 40px;
+		background-color: #0c4510;
+		bottom: auto;
+	}
+
+	.logothor{
+	padding-left: 32px;
+	}
+
+	.menu{
+		float: right;
+	}
+		a{
+			text-decoration: none;
+			color: inherit;
+			font-size: 14px;
+			text-align: right;
+		}
+
+		li{
+			display:inline-block;
+			width:80px;
+			padding:6px 15px;
+			background-color:#000;
+			border:2px solid #fcef09;
+			text-align:center;
+			color:#fcef09;
+			float: right;
+			margin-right: 25px;
+			margin-top: 18px;
+		}
+
+		li:hover{
+			background-color:#fcef09;
+			color:#000;
+			border:2px solid #fcef09;
+		}
+
+	.logo{
+		padding-left: 32px;
+	}
+
+	.nombre{
+		float: right;
+		margin-right: 32px;
+		margin-top: 8px;
+	}
+		h2{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 15px;
+				color: #fcef09
+			}
+
+	#texto{
+		height: 600px;
+		width: 480px;
+		background-color: black;
+		padding-right: 20px;
+		padding-left: 30px;
+		padding-top: 25px;
+		float: left;
+	}
+
+	p{
+		color: #fcef09;
+		font-size: 18px;
+	}
+
+	.titulo{
+		padding-top: 20px;
+	}
+
+	h1{
+	    font-family: 'Days One', sans-serif;
+        font-size: 35px;
+        color: #fcef09
+	  }
+}
+
+
+
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px){ 
+ body{ background-color: #b51408;}
+ 	main{
+		width: 1200px;
+		height: 740px;
+		background-color: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	header{
+		width: 1200px;
+		height: 70px;
+		background-color: #0c4510;
+	}
+
+	article{
+		width: 1200px;
+		height: 640px;
+		background-image: url(../img/sinopsisxl.jpg);
+	}
+
+	footer{
+		width: 1200px;
+		height: 40px;
+		background-color: #0c4510;
+		bottom: auto;
+	}
+
+	.logothor{
+	padding-left: 32px;
+	}
+
+	.menu{
+		float: right;
+	}
+		a{
+			text-decoration: none;
+			color: inherit;
+			font-size: 14px;
+			text-align: right;
+		}
+
+		li{
+			display:inline-block;
+			width:80px;
+			padding:6px 15px;
+			background-color:#000;
+			border:2px solid #fcef09;
+			text-align:center;
+			color:#fcef09;
+			float: right;
+			margin-right: 25px;
+			margin-top: 18px;
+		}
+
+		li:hover{
+			background-color:#fcef09;
+			color:#000;
+			border:2px solid #fcef09;
+		}
+
+	.logo{
+		padding-left: 32px;
+	}
+
+	.nombre{
+		float: right;
+		margin-right: 32px;
+		margin-top: 8px;
+	}
+		h2{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 15px;
+				color: #fcef09
+			}
+
+	#texto{
+		height: 530px;
+		width: 550px;
+		background-color: black;
+		padding-right: 15px;
+		padding-left: 30px;
+		padding-top: 50px;
+		float: left;
+	}
+
+	p{
+		color: #fcef09;
+		font-size: 18px;
+	}
+
+	.titulo{
+			padding-top: 20px;
+		}
+
+		h1{
+		    font-family: 'Days One', sans-serif;
+	        font-size: 40px;
+	        color: #fcef09
+		  }
+}
